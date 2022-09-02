@@ -1,0 +1,19 @@
+Rota: Endereço completo da requisição
+Recurso: Qual entidade estamos acessando do sistema
+
+GET: Buscar uma ou mais informações do beck-end 
+POST: Criar uma nova informação no beck end
+PUT: Atualizar uma informação no beck-end
+DELETE: Remover uma informação do beck-end
+
+POST http://localhost:3333/users = Cria um usuário
+GET http://localhost:3333/users = Listar usuários
+GET http://localhost:3333/users/5 = Buscar dados do usuáro com ID 5
+
+Request Param: Parâmetros que vem na própria rota que identificam um recurso
+Query Param: Parâmetros que vem na própria rota geralmente opcionais para filtros, paginação
+Request Body: Parâmetros para criação/atualização de informação
+
+------------------------------------------------------------------------------------------------
+
+Migrations = Histórico do banco de dados
